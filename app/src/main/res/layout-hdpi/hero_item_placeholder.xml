@@ -17,7 +17,7 @@
         <View
                 android:id="@+id/heroCardImage"
                 android:layout_width="@dimen/dp_0"
-                android:layout_height="@dimen/dp_200"
+                android:layout_height="@dimen/dp_350"
                 android:scaleType="fitXY"
                 android:background="@color/shimmer_background"
                 app:layout_constraintEnd_toEndOf="parent"

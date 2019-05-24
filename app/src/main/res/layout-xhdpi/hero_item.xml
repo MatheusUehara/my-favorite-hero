@@ -17,7 +17,7 @@
         <ImageView
                 android:id="@+id/heroCardImage"
                 android:layout_width="@dimen/dp_0"
-                android:layout_height="@dimen/dp_200"
+                android:layout_height="@dimen/dp_700"
                 android:scaleType="centerCrop"
                 android:src="@drawable/spider_man_cover"
                 app:layout_constraintEnd_toEndOf="parent"

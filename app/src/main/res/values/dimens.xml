@@ -7,8 +7,12 @@
     <dimen name="dp_50">50dp</dimen>
     <dimen name="dp_80">80dp</dimen>
     <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_110">110dp</dimen>
     <dimen name="dp_130">130dp</dimen>
+    <dimen name="dp_170">170dp</dimen>
     <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_350">350dp</dimen>
+    <dimen name="dp_700">700dp</dimen>
     <dimen name="margin_default">6dp</dimen>
     <dimen name="corner_radius">6</dimen>
     <dimen name="padding">12dp</dimen>

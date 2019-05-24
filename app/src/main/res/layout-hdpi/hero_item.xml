@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_default"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:layout_marginLeft="@dimen/margin_default" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:id="@+id/heroCardImage"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="@dimen/dp_350"
+                android:scaleType="centerCrop"
+                android:src="@drawable/spider_man_cover"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+        />
+
+        <TextView
+                android:id="@+id/heroName"
+                android:text="@string/hero_name"
+                android:maxLines="1"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:padding="@dimen/padding"
+                android:layout_marginRight="@dimen/margin_default"
+                android:layout_marginEnd="@dimen/margin_default"
+                app:layout_constraintTop_toBottomOf="@+id/heroCardImage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/favoriteIcon"
+        />
+
+        <ImageButton
+                android:id="@+id/favoriteIcon"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_0"
+                android:background="@color/transparent"
+                android:src="@drawable/favorite"
+                android:tint="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/heroCardImage"
+                app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
+
